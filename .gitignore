@@ -1,0 +1,23 @@
+### VS Code ###
+.vscode/
+Plan.txt
+
+### Node Modules ###
+/**/node_modules/
+
+### Distributions ###
+/**/dist/
+
+### Cache ###
+/**/.cache/  
+/**/.parcel-cache
+/**/.eslintcache
+
+### Package-lock ###
+/**/package-lock.json
+
+### Build ###
+/**/build
+
+### Environment ###
+/**/.env
