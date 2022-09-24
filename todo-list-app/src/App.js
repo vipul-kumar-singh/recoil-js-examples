@@ -1,7 +1,13 @@
 import './App.css';
+import {RecoilRoot} from "recoil";
+import TodoList from "./components/TodoList";
 
-const App = () => {
-  return <RecoilRoot></RecoilRoot>;
-};
+function App() {
+    return (
+        <RecoilRoot>
+            <TodoList/>
+        </RecoilRoot>
+    );
+}
 
 export default App;
